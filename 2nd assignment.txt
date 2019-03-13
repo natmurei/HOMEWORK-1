@@ -1,0 +1,21 @@
+2nd class assignment.
+
+Different between declaration,difinition and initialization.
+
+Declaration. 
+Is the variable registered using a given a name within the corresponding scope.
+
+Definition.
+Its showing how something has ben implemented like a variable(var),or class of function.
+
+Initialzation.
+When you declare variable it is automatically initialized,which means memory is allocated for the variable by the javascript engine.
+
+
+example.
+
+var n; // Declaration and iniialization.
+
+var n= "natasha";
+
+Where my variable registered is (var n) and the name given is natasha.
