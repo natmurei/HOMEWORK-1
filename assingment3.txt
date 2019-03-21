@@ -1,0 +1,52 @@
+Assignment 3.Natasha
+
+
+
+
+
+
+1.Write a function that prints all the fruits from a given list of fruits e.g. printFruits(fruits_list
+
+       my list of fruits is Avocado,Orange,Peach,Guava,Watermelon.
+
+         
+
+            function printfruits(fruits_list){
+             fruits_list=["Avocado","Orange","Peach","Guava","Watermelon"]};
+                     
+
+
+
+2.Write a function that given a fruit index, it returns the name of a fruit from a list of fruits. e.g getFruit(1, fruits_list), returns 'apples'
+
+
+                var fruits_list=["Avocado","Orange","Peach","Guava","Watermelon"];
+                   //undefined
+
+	
+                 fruits_list 
+                 (5) ["Avocado","Orange","Peach","Guava","Watermelon"];                    
+                    0:"Avacado"
+                    1: "orange"
+                    2: "Peach"
+                    3: "guava"
+                    4: "Watermelon"
+                    length: 5
+                    __proto__: Array(0)
+
+
+
+                 fruits_list [0];
+                 "Avocado"
+                 fruits_list [4];
+                 "Watermlon"
+ 
+      
+0: "mango"
+1: "orange"
+2: "guava"
+length: 3
+__proto__: Array(0)
+
+
+       
