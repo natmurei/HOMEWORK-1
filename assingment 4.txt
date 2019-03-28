@@ -1,0 +1,59 @@
+Assignment 4.Natasha
+
+
+
+
+(Question)
+
+Write a program to calculate purchase from a Kiosk for example given the fruit name 'orange' th program should fetch its price (30.00)
+multiply with the quantity requested (2) and return  the total cost in this printed format (2 oranges for KES 60.00)
+
+CalculateFruitCost(fruitName,quantity).
+
+                         my fruits are apples,oranges,grapes.
+         
+                         
+
+                          
+
+                        fruits=
+    
+                             {'grapes':20,'apple':40,'orange':30}
+
+                           {grapes: 20, apple: 40, orange: 30}
+
+                       
+                        var quantity=2
+
+                        undefined
+
+
+                        var price= fruits['orange']*2
+
+
+                        undefined
+
+
+                        price
+
+                        60
+
+
+                        function calculateFruitCost (Name,Quan) {
+
+                        fruits=
+    
+                            {'grapes':20,'apple':40,'orange':30};
+
+                        console.log(quantity + ' ' + Name + ' for KES ' + price);}
+
+
+                        undefined 
+
+
+                        calculateFruitCost('oranges',2);
+ 
+                        2 oranges for KES 60
+
+
+                        undefined                      
