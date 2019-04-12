@@ -1,0 +1,42 @@
+        Assignment 6 Natasha.
+
+         Write a program Kiosk( ) that will allow you to add a fruit and retrieve a list of fruits to/from a kiosk using setter and getter methods.
+
+         For instance: 
+         var kiosk = Kiosk( )
+         kiosk.setFruit(“mango”)
+         kiosk.getFruits() will return a list of fruits  [“mango”]  
+
+
+
+
+        function Kiosk () {
+
+	var fruits = ['guava','pineapple','mango']
+
+
+        function setFruit (fruit) {return 'guava'}
+
+        function getFruits (fruitslist) {return 'guava','pineapple','mango'}
+
+        var fruits = {
+	
+	    setFruit : setFruit
+	
+	    getFruits : getFruits
+
+          }
+
+         return fruits; 
+          }       
+
+       Kiosk.setFruit = 'mango'
+         "mango"
+
+      Kiosk.getFruits = ['mango','pineapple','guava']
+
+      ["mango", "guava", "pineapple"]
+     
+
+
+
