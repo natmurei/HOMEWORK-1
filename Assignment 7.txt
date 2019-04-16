@@ -6,11 +6,11 @@
 
       this.fruitsPriceList = { "orange": 30, "mango": 15, "avocado": 40 }; 
       and takes two parameters (fruit, quantity) when initialized i.e. 
-      var kioskCalc = new KioskCalc(ìorangeî, 2);
+      var kioskCalc = new KioskCalc(‚Äúorange‚Äù, 2);
 
       Thereafter, it allows one to calculate the total cost of the fruit by accessing the getTotalCost( ) method.
  
-       kioskCalc.getTotalCost( )  // returns ì2 orange for KES 60î 
+       kioskCalc.getTotalCost( )  // returns ‚Äú2 orange for KES 60‚Äù 
 
 
 
@@ -20,16 +20,16 @@
                               class KioskCalc{
 
   
-                                constructor (fruit,quantity)
+                                constructor (fruit,quan)
                              {
   
                                 this.fruitsPriceList={"mangoes":15,"orangeS":30,"aocado":40}
   
                                 this.fruit_name= fruit;
 
-                                this.current_fruit = this.fruitsPriceList[fruit];
+                                this.present_fruit = this.fruitsPriceList[fruit];
  
-                                this.quantity = quantity  
+                                this.quan = quan  
   
                           }
   
@@ -37,7 +37,7 @@
  
                                {
        
-                                return this.current_fruit*this.quantity;
+                                return this.present_fruit*this.quan;
    
                               }
 
@@ -45,11 +45,11 @@
    
  
                               //
-undefined
+                              undefined
 
-                              var current_kioskCalc = new KioskCalc("oranges",2);
+                              var present_kioskCalc = new KioskCalc("oranges",2);
 
-                              console.log(current_kioskCalc.quantity + " " + current_kioskCalc.fruit_name + " for KES " + current_kioskCalc.getTotalCost());
+                              console.log(present_kioskCalc.quan + " " + present_kioskCalc.fruit_name + " for KES " +            present_kioskCalc.getTotalCost());
  
 VM78:2
 
