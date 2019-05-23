@@ -1,0 +1,121 @@
+class Mkulima {
+  constructor () {
+    this.farms = [];
+    this.vendors = [];
+    this.products = [];
+    this.orders = [];
+  }
+  
+  addFarm(farmId, name, farmer, phone, address) {
+    let farm = {
+      farmId: farmId,
+      name: name,
+      farmer: farmer,
+      phone: phone,
+      address: address
+    }
+    this.farms.push (farm)
+  }
+  
+  getFarm(farmId) {
+    for(var i=0; i<this.farms.length; i++) {
+      let farm = this.farms[i];
+      if (farm.farmId == farmId) {
+        return farm
+      }
+    }
+  }
+  
+  removeFarm(farmId) {
+    let farm = this.getFarm(farmId)
+    let index = this.farms.indexOf(farm);
+    this.farms.splice(index,1)
+  }
+  
+  updateFarm(farmId, name, farmer, phone, address) {
+    let farm = {
+      farmId: farmId,
+      name: name,
+      farmer: farmer,
+      phone: phone,
+      address: address
+    }
+    this.farms.push (farm)
+  }
+  
+  addVendor(vendorId, name, phone) {
+    let vendor = {
+      vendorId: vendorId,
+      name: name,
+      phone: phone
+    }
+    this.vendors.push (vendor)
+  }
+  
+  getVendor(vendorId) {
+     for(var i=0; i<this.vendors.length; i++) {
+       let vendor = this.vendors[i];
+       if (vendor.vendorId == vendorId) {
+         return vendor
+       }
+     }
+  }
+  
+  removeVendor(vendorId) {
+    let vendor = this.getVendor(vendorId)
+    let index = this.vendors.indexOf(vendor);
+    this.vendors.splice(index,1)
+  }
+  
+  updateVendor(vendorId, name, phone) {
+    let vendor = {
+      vendorId: vendorId,
+      name: name,
+      phone: phone
+    }
+    this.vendors.push (vendor)
+  }
+  
+  addProduct(productId, name, price) {
+    let product = {
+      productId: productId,
+      name: name,
+      price: price
+    }
+    this.products.push (product)
+  }
+  
+  getProduct(productId) {
+    for(var i=0; i<this.products.length; i++) {
+      let product = this.products[i];
+      if (product.productId == productId) {
+        return product
+      }
+     }
+    }
+  
+  
+  
+}
+
+var mkulima = new Mkulima();
+mkulima.addFarm(1,"Sisal","Natasha","072532662","westpokot")
+mkulima.addFarm(2,"delamea","samantha","076735252","Nairobi")
+mkulima.removeFarm(1)
+mkulima.getFarm(1)
+
+mkulima.updateFarm(1,"makuyu","marion","074567893","kapenguria")
+console.log(mkulima.farms)
+
+var kulima = new Mkulima();
+kulima.addVendor(1,"Natasha","0724388420")
+kulima.addVendor(2,"delamea","samantha")
+kulima.removeVendor(2)
+kulima.getVendor(2)
+kulima.updateVendor(1,"pochon","07252527237")
+console.log(kulima.vendors)
+
+var lima = new Mkulima();
+lima.addProduct(1,"Guava","KES 300")
+lima.getProduct(2)
+
