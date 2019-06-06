@@ -1,9 +1,6 @@
  This my Assignment 11.
 
 
-Note:Changing the h3 title to UpperCase I introduced an Id name "nat" in the tag of h3 of fruits in the Html, the same thing in the h3 of vegetable i formed an Id called "tasha".
-
-
 
 Questions: 
 1.Change document background color to silver 
@@ -30,11 +27,6 @@ body.style.backgroundColor = 'silver'
 var h1 = document.getElementById('title')
  h1.style.color ='green'
  
- var nat =document.getElementById("nat");
-nat.innerHTML=nat.innerHTML.toUpperCase()
-
-var tasha=document.getElementById("tasha");
-tasha.innerHTML=tasha.innerHTML.toUpperCase()
 
 var li = document.createElement("li");
  li.innerHTML=("guava")
