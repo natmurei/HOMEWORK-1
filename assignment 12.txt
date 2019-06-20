@@ -1,0 +1,66 @@
+
+     This my Assignment 12:
+
+
+                   var setColor = ()=>{
+  var titleh1 = document.getElementById("title");
+  titleh1.style.color = 
+  titleh1.style.color ==="green"? "silver":"green";
+}
+setInterval(setColor,500);
+
+  var collo = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < collo.length; i++) {
+  collo[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var fruList = this.nextElementSibling;
+    if (fruList.style.display === "block") {
+      fruList.style.display = "none";
+    } else {
+      fruList.style.display = "block";
+    }
+  });
+}
+
+var frut = document.getElementById("name")
+
+function addFruits() {
+  return frut.value
+}
+nat.addEventListener("onclick",()=> alert(addFruits()))
+
+
+ var colla = document.getElementsByClassName("collapse");
+var i;
+
+for (i = 0; i < colla.length; i++) {
+  colla[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var vegList = this.nextElementSibling;
+    if (vegList.style.display === "block") {
+      vegList.style.display = "none";
+    } else {
+      vegList.style.display = "block";
+    }
+  });
+}
+var vege = document.getElementById("name")
+
+function addVegetable() {
+  return vege.value
+}
+nat1.addEventListener("onclick",()=> alert(addVegetable()))
+
+
+
+
+
+
+
+
+
+
+
+
